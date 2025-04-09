@@ -1,0 +1,39 @@
+.hero-section {
+  position: relative;
+}
+
+.current-slide.inactive {
+  display: none;
+}
+
+.current-slide {
+  width: 100%;
+  transition: opacity ease-in-out 0.3s;
+  animation: fade 0.3s ease-in;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  font-size: 34px;
+  width: 34px;
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: 25px;
+}
+
+.right-arrow {
+  right: 25px;
+}

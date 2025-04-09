@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* .title-border::before {
+  border-bottom: 1px solid #a7a6a6;
+  position: absolute;
+  width: 100%;
+  content: "";
+  top: 30%;
+  left: 0;
+  z-index: -1;
+}
+
+.title-border::after {
+  position: absolute;
+  width: 25%;
+  height: 50px;
+  content: "";
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  z-index: -1;
+  background-color: #fff;
+} */
+
+.title-border {
+  text-align: center;
+}
